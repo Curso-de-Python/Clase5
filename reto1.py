@@ -14,14 +14,6 @@ Tu tarea es escribir un programa que:
 
 listaSombrero = [1, 2, 3, 4, 5] 
 
-# Reemplazo del número central
-reemplazo = int(input("Nuevo número central: "))
-listaSombrero[2] = reemplazo
-
-# Eliminar el último elemento
-del listaSombrero[4]
-
-# Imprimir longitud
-print("La longitud final es de ", len(listaSombrero))
+# Coloca tu código aquí
 
 print(listaSombrero)
