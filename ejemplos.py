@@ -1,3 +1,9 @@
+# OPERACIONES LÓGICAS
+var = 1
+print(var > 0 and not (var <= 0))
+
+'''
+# --------------------
 # OPERADORES BITWISE
 
 i = 15    # ...01111 en binario
@@ -18,14 +24,15 @@ print("bit: ", i & j)
 # --------------------
 # SHIFTING
 
-#var = 17
-#varRight = var >> 1
-#varLeft = var << 2
-#print(var, varLeft, varRight)
+var = 17
+varRight = var >> 1
+varLeft = var << 2
+print(var, varLeft, varRight)
 
 # --------------------
 # ÍNDICES NEGATIVOS
 
-#numeros = [111, 7, 2, 1]
-#print(numeros[-1])
-#print(numeros[-2])
+numeros = [111, 7, 2, 1]
+print(numeros[-1])
+print(numeros[-2])
+'''
